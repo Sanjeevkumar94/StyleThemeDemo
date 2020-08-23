@@ -6,22 +6,19 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/ButtonStyle</item>
+        <item name="android:textViewStyle">@style/TextViewStyle</item>
     </style>
 
 
-    <style name="ButtonStyle">
+    <style name="ButtonStyle" parent="@android:style/Widget.Button">
         <item name="android:background">#37913B</item>
         <item name="android:drawableStart">@drawable/ic_action_name</item>
     </style>
 
-    <style name="AppTheme.NoActionBar">
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
-        <item name="android:backgroundTint">#E8D31D</item>
+    <style name="TextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">#F1430C</item>
     </style>
-
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
