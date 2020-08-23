@@ -9,8 +9,19 @@
     </style>
 
 
-    <style name="ButtonStule">
+    <style name="ButtonStyle">
         <item name="android:background">#37913B</item>
+        <item name="android:drawableStart">@drawable/ic_action_name</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:backgroundTint">#E8D31D</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 </resources>
