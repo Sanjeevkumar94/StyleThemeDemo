@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fp = findViewById(R.id.fp);
 
         Toolbar toolbar = findViewById(R.id.tool_bar);
-        setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("WhatsApp");
-        //toolbar.setTitle("HJKGKJGB");
+//        setSupportActionBar(toolbar);
+//        getSupportActionBar().setTitle("WhatsApp");
+        toolbar.setTitle("HJKGKJGB");
     }
 
     @Override
