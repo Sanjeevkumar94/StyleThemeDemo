@@ -1,6 +1,7 @@
 package com.example.stylethemedemo;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         login = findViewById(R.id.login);
         signUp = findViewById(R.id.signUp);
         fp = findViewById(R.id.fp);
+
+        Toolbar toolbar = findViewById(R.id.tool_bar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setTitle("WhatsApp");
+        //toolbar.setTitle("HJKGKJGB");
     }
 
     @Override
