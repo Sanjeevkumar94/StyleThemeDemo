@@ -3,9 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/colorAccent"
+    android:background="@color/colorPrimary"
     android:elevation="4dp"
     android:theme="@style/ToolBarStyle"
+    app:logo="@drawable/ic_action_name"
+    app:logoDescription="LOGO"
+    app:navigationIcon="@drawable/ic_format_align_justify_black_24dp"
+    app:subtitle="AbhiAndroid"
+    app:titleTextColor="#F00"
+    app:subtitleTextColor="@color/colorAccent"
+
     >
+
 
 </androidx.appcompat.widget.Toolbar>

@@ -1,0 +1,71 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <!--
+        Menu item's that displayed on Toolbar.
+    -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Chat"
+        android:icon="@drawable/ic_add_alert_black_24dp"
+        />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="200"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_airplanemode_inactive_black_24dp"
+
+
+        />
+    <item
+        android:id="@+id/action_user"
+        android:orderInCategory="300"
+        android:title="User"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_split_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/photo"
+        android:orderInCategory="300"
+        android:title="photo"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_format_align_justify_black_24dp"
+
+        />
+
+    <item
+        android:id="@+id/video"
+        android:orderInCategory="300"
+        android:title="video"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_split_black_24dp"
+
+
+        />
+
+    <item
+        android:id="@+id/audio"
+        android:orderInCategory="300"
+        android:title="audio"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_call_split_black_24dp"
+
+
+        />
+
+    <item
+        android:id="@+id/message"
+        android:orderInCategory="300"
+        android:title="message"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_call_split_black_24dp"
+
+
+        />
+</menu>
